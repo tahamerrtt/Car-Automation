@@ -2,13 +2,24 @@ Car Automation is a modular Java project designed to manage cars, customers, and
 The architecture follows a clean layered structure: Model → DAO → Service → Main, making the project easy to maintain and extend.
 It demonstrates OOP principles, service-based logic, and a simple in-memory data storage system.
 
-Project Architecture
-src/
-└── com.taha.carrental
-    ├── model/        # Car, Customer, Rental
-    ├── dao/          # CarDao, CustomerDao, RentalDao (in-memory storage)
-    ├── service/      # CarService, CustomerService, RentalService
-    └── app/          # Main CLI application
+    --------- MENU ----------
+    1) Add Car
+    2) List Cars
+    3) Add Customer
+    4) List Customer
+    5) Rent a Car
+    6) Return a Car
+    7) Exit
+    Select number from menu:
+
+
+    Project Architecture
+    src/    
+    com.taha.carrental
+    model/        # Car, Customer, Rental
+    dao/          # CarDao, CustomerDao, RentalDao (in-memory storage)
+    service/      # CarService, CustomerService, RentalService
+    app/          # Main CLI application
 
 Features:
 Add new cars
